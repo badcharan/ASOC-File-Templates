@@ -1,4 +1,5 @@
-# ASOC-File-Templates
+# ASOC File Templates
+
 ASOC File Templates for Xcode
 
 ## これはなに？
@@ -13,4 +14,8 @@ Xcode を起動し、新規ファイルを作成するとファイルテンプ�
 
 ## 今後は？
 
-現在、NSObject と NSView をスーパークラスにもつ新規 AppleScript ファイルを作成することができます。これ以上修正するかどうかはわかりません。
+現在、NSObject と NSView をスーパークラスにもつ新規 AppleScript ファイルを作成することができます。
+
+今のところこれで間に合っています。なので、これ以上修正するかどうかはわかりません。
+
+とくに権利を主張するようなことはしていないので、ご自由に使ってください。
