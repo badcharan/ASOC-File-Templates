@@ -45,7 +45,31 @@
 			<array>
 				<string>NSObject</string>
 				<string>NSView</string>
+				<string>NSViewController</string>
+				<string>NSWindowController</string>
 			</array>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>Description</key>
+			<string>Whether to create a XIB file with the same name</string>
+			<key>Identifier</key>
+			<string>XIB</string>
+			<key>Name</key>
+			<string>Also create XIB file for user interface</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>className</key>
+				<array>
+					<string>NSViewController</string>
+					<string>NSWindowController</string>
+				</array>
+			</dict>
+			<key>Type</key>
+			<string>checkbox</string>
 		</dict>
 	</array>
 	<key>Summary</key>
